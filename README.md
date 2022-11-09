@@ -3,5 +3,6 @@ Just thought I would share some of my solutions just in case someone found them 
 
 For some questions there may be a test.txt file which I made to quickly compare my solutions against the mark scheme via automated testing. 
 There may also be template files which I use to quickly setup boilerplate code and some VSCode config files.
+Some solutions may not execute in the time constraint (1 second), which are labelled 'SLOW' in the NOTES with explanations at the top of each file. 
 
 I have also added explanations of how my solutions work at the top of each file :)

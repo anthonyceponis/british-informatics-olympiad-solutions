@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.scss": "postcss",
+    "*.env.development": "env",
+    "*.env.production": "env",
+    "*.env.local": "env",
+    "ostream": "cpp",
+    "algorithm": "cpp",
+    "random": "cpp",
+    "limits": "cpp",
+    "cmath": "cpp",
+    "iostream": "cpp",
+    "string": "cpp",
+    "string_view": "cpp"
+  }
+}

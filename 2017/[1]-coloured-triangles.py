@@ -60,8 +60,6 @@ def part_b():
     So the only possible cases are RRRBBGGRG, GBGGRRBBB, BGBRGBRGR.
     
     """
-    
-    pass   
             
 def part_c():
     
@@ -85,26 +83,43 @@ def part_c():
     Now I have shown that if a row is filled then we can fill the row above, but the row at the bottom is filled by default so we can fill the entire triangle in only one way.
     
     """ 
-    
-    pass
 
 def part_d():
     """
     
-    Cases for extreme left and right are the following: RR, BB, GG, RB, BR, RG, GR, BG, GB
+    Let R = 0, G = 1, B = 2
+    
+    The only possible sums are R+G+B, R+R+R, G+G+G, B+B+B which equal 3, 0, 3, 6 respectively, which are all divisble by 3.
+    
+    Consider the top squares and label them from left to right as a1, a2, a3, a4, ..., an.
+    Consider the effect of each square from the first row on the final row, i.e. count how many times the square ai for 1 <= i <= n is counted in the final row.
+    The sum of the effect of all squares will be the same mod 3. To ensure that only the extreme sides of the first row are the only squares that effect the outcome,
+    we must ensure that the sum of the effect of all other squares are divisible by 3. 
+    
+    Example for n = 4 consider i = 2:
+    
+        At the start, the effect of a2 = 1
+    
+        _ 1 _ _
+         1 1 _
+          1 1
+           2
+           
+        This can be translated to traversing a grid of size i x (n-r-1) and there are (n-1) CHOOSE i ways (choose function) to traverse this grid which is the effect of ai on the final element.
+        Now, we must ensure that the sum of (n-1) CHOOSE i for 2 <= i <= n-1 is divisible by 3. 
+        Using the hockey stick identity, we have that this sum is equal to (n-1+1) CHOOSE 3 which is equal to n CHOOSE 3. 
+        We need the smallest n greater than 4 such that n CHOOSE 3 is divisible by 3.
+        After some trial and error you will find that the smallest case is n = 10.
     
     """
-    
-    pass
 
 def main():
     startTime = time.time()
     
-    part_a()
+    # part_a()
     # part_b()
     # part_c()
     # part_d()
-    
 
     print(f'Execution time (seconds): {round(time.time() - startTime, 5)}')
     pass

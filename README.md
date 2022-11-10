@@ -6,3 +6,11 @@ There may also be template files which I use to quickly setup boilerplate code a
 Some solutions may not execute in the time constraint (1 second), which are labelled 'SLOW' in the NOTES at the top of each file. 
 
 I have also added explanations of how my solutions work at the top of each file :)
+
+## Solutions Tracker ##
+| Year          | Q1                 | Q2                 | Q3                 |
+| ------------- | :----------------: | :----------------: | :----------------: |
+| 2019          | :white_check_mark: |                    |                    |    
+| 2018          | :white_check_mark: |                    |                    |  
+| 2017          | :white_check_mark: |                    |                    |  
+| 2016          | :white_check_mark: |                    |                    |  

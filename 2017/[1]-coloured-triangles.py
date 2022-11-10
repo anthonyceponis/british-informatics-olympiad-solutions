@@ -27,9 +27,6 @@ def getFinalLetter(firstRow):
     return row1
 
 def part_a():
-    # For manual input
-    # firstRow = input()
-    
     with open("(1)-test.txt", "r") as f:
         content = f.readlines()
         for line in content:
@@ -47,30 +44,66 @@ def part_b():
        R R R B B G G R G
         R R G B R G B B
     
-        This is the only possible way as the first letter locks the rest of the letters due to the restrictions in the question
-    
-    Case first letter B:
-       B G B R G B R G R 
-        R R G B R G B B
-        
-        First letter locks the rest again
+        This is the only possible way as the first letter locks the rest of the letters due to the restrictions in the question.
     
     Case first letter is G:
        G B G G R R B B B
         R R G B R G B B
         
-    So the only possible cases are RRRBBGGRG, BGBRGBRGR, GBGGRRBBB
+    Case first letter B:
+       B G B R G B R G R 
+        R R G B R G B B
+        
+        First letter locks the rest again.
+    
+        
+    So the only possible cases are RRRBBGGRG, GBGGRRBBB, BGBRGBRGR.
     
     """
     
     pass   
             
+def part_c():
+    
+    """
+    
+    Experimenting:
+    Suppose you have the following triangle:    _ R _ _
+                                                 _ B _
+                                                  R _
+                                                   R  
+                                                   
+    Working from the bottom up, there is only one way to complete the second to bottom row clearly. 
+    Then, working up there will be only one way to fill the right most space on the second row and one way to fill the left most space which completes the row.
+    A similar arguement follows for the first row.
+    So it seems reasonable that there is only one way to complete the triangle.
+                         
+    Inductive justification:
+    Consider the kth row (from the bottom) that is completely filled. 
+    The letters on either side of the letter on the (k+1)th row that is filled by default can only be filled in one way. 
+    Using this idea, the rest of the row can be filled uniquely.
+    Now I have shown that if a row is filled then we can fill the row above, but the row at the bottom is filled by default so we can fill the entire triangle in only one way.
+    
+    """ 
+    
+    pass
+
+def part_d():
+    """
+    
+    Cases for extreme left and right are the following: RR, BB, GG, RB, BR, RG, GR, BG, GB
+    
+    """
+    
+    pass
 
 def main():
     startTime = time.time()
     
-   
     part_a()
+    # part_b()
+    # part_c()
+    # part_d()
     
 
     print(f'Execution time (seconds): {round(time.time() - startTime, 5)}')

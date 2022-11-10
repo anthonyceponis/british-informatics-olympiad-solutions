@@ -38,10 +38,6 @@ def nextPalindrome(num, depth = 0):
     return next
 
 def part_a():
-    # For manual input
-    # num = input()
-    # next = nextPalindrome(num, 0)
-    
     with open("(1)-test.txt", "r") as f:
         content = f.readlines()
         for line in content:

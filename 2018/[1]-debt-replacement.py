@@ -36,11 +36,6 @@ def repaid(interestP, repaymentP, debt, paid, countSteps = False, steps = 0):
     
 
 def part_a():
-    # For manual input
-    # cin = input()
-    # interestP = int(cin.split(" ")[0].strip())
-    # repaymentP = int(cin.split(" ")[1].strip())
-    
      with open("(1)-test.txt", "r") as f:
         content = f.readlines()
         for line in content:

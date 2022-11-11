@@ -3,6 +3,8 @@ import math
 
 """
 
+NOTES:
+
 a)
 A simple iterative algorithm that simply translates the instructions in the question.
 Key trick was multiply everything by 100 and work with ints as much as possible 

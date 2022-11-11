@@ -1,5 +1,14 @@
 import time
 
+"""
+    
+NOTES:
+
+a)
+
+
+"""
+
 def part_a():
     # with open("(1)-test.txt", "r") as f:
     #     content = f.readlines()

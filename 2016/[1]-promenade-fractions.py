@@ -1,5 +1,14 @@
 import time
 
+"""
+    
+NOTES:
+
+a)
+Simply translates the steps of the algorithm into code.    
+
+"""
+
 def getPromenadeOutput(cin):
     beforeMostRecentLeftChoice = [1, 0]
     beforeMostRecentRightChoice = [0, 1]
@@ -20,7 +29,6 @@ def getPromenadeOutput(cin):
         mostRecent[1] = m+s
     
     return f'{mostRecent[0]}/{mostRecent[1]}'
-    
 
 def part_a():
     with open("(1)-test.txt", "r") as f:

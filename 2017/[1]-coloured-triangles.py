@@ -1,5 +1,14 @@
 import time
 
+"""
+    
+NOTES:
+
+a)
+This is just a simple for loop that checks adjacent squares and appends the output square to the next row based on the restrictions given in the question.
+    
+"""
+
 def getOpposite(col1, col2):
     cols = [col1, col2]
     r_found = False

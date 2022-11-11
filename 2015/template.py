@@ -4,8 +4,7 @@ import time
     
 NOTES:
 
-a)
-
+a)  
 
 """
 

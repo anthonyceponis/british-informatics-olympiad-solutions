@@ -14,4 +14,5 @@ I have also added explanations of how my solutions work at the top of each file 
 | 2018          | :white_check_mark: |                    |                    |  
 | 2017          | :white_check_mark: |                    |                    |  
 | 2016          | :white_check_mark: |                    |                    |  
-| 2015          | :white_check_mark: |                    |                    |  
+| 2015          | :white_check_mark: |                    |                    | 
+| 2014          | :white_check_mark: |                    |                    | 

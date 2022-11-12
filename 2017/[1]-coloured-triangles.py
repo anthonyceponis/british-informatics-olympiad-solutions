@@ -102,8 +102,8 @@ def part_d():
     
     Consider the top squares and label them from left to right as a1, a2, a3, a4, ..., an.
     Consider the effect of each square from the first row on the final row, i.e. count how many times the square ai for 1 <= i <= n is counted in the final row.
-    The sum of the effect of all squares will be the same mod 3. To ensure that only the extreme sides of the first row are the only squares that effect the outcome,
-    we must ensure that the sum of the effect of all other squares are divisible by 3. 
+    The effect of all squares will be the same mod 3. To ensure that only the extreme sides of the first row are the only squares that effect the outcome,
+    we must ensure that the effect of all the middle squares are divisible by 3. 
     
     Example for n = 4 consider i = 2:
     
@@ -114,11 +114,10 @@ def part_d():
           1 1
            2
            
-        This can be translated to traversing a grid of size i x (n-r-1) and there are (n-1) CHOOSE i ways (choose function) to traverse this grid which is the effect of ai on the final element.
-        Now, we must ensure that the sum of (n-1) CHOOSE i for 2 <= i <= n-1 is divisible by 3. 
-        Using the hockey stick identity, we have that this sum is equal to (n-1+1) CHOOSE 3 which is equal to n CHOOSE 3. 
-        We need the smallest n greater than 4 such that n CHOOSE 3 is divisible by 3.
-        After some trial and error you will find that the smallest case is n = 10.
+        This can be translated to traversing a grid of size (i-1) x (n-i) and there are (n-1) CHOOSE (i-1) ways (choose function) to traverse this grid which is the effect of ai on the final element.
+        Now, we must ensure that all of (n-1) CHOOSE (i-1) for 2 <= i <= n-1 is divisible by 3. 
+        If you expand (n-1) CHOOSE (i-1), you get (n-1)!/(n-1-i)!i! and this is divisible by 3 when n = 3^k + 1 for all i. 
+        The example given showed the case where k = 1 so the next case is k = 2 so the next smallest n = 10. 
     
     """
 

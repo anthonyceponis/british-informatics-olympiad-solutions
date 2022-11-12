@@ -69,6 +69,7 @@ def main():
     
     # part_a()
     # part_b()
+    # part_c()
    
     print(f'Execution time (seconds): {round(time.time() - startTime, 5)}')
     pass

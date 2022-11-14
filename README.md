@@ -17,3 +17,4 @@ I have also added explanations of how my solutions work at the top of each file 
 | 2014          | :white_check_mark: |                    |                    | 
 | 2013          | :white_check_mark: |                    |                    | 
 | 2012          | :white_check_mark: |                    |                    | 
+| 2011          | :white_check_mark: |                    |                    | 

@@ -19,3 +19,4 @@ I have also added explanations of how my solutions work at the top of each file 
 | 2012          | :white_check_mark: |                    |                    | 
 | 2011          | :white_check_mark: |                    |                    | 
 | 2010          | :white_check_mark: |                    |                    |
+| 2009          | :white_check_mark: |                    |                    |

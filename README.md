@@ -4,7 +4,7 @@ Just thought I would share some of my solutions just in case someone found them 
 For some questions there may be a test.txt file which I made to quickly compare my solutions against the mark scheme via automated testing. 
 There may also be template files which I use to quickly setup boilerplate code and some VSCode config files.
 
-I have also added explanations of how my solutions work at the top of each file :)
+I have also added explanations of how my solutions work at the top of each file, including later parts of questions like parts b,c,d,... etc.
 
 ## Solutions Tracker ##
 | Year          | Q1                 | Q2                 | Q3                 |
@@ -21,4 +21,4 @@ I have also added explanations of how my solutions work at the top of each file 
 | 2010          | :white_check_mark: |                    |                    |
 | 2009          | :white_check_mark: |                    |                    |
 | 2008          | :white_check_mark: |                    |                    |
-| 2007          | :white_check_mark: |                    |                    |
+| 2007          | :white_check_mark: | :white_check_mark: |                    |

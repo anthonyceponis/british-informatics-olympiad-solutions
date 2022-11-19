@@ -5,7 +5,7 @@ import time
 NOTES:
 
 a)
-Here is just used integer division and modular arithmetic for checking the equality of two times on the clock.  
+Here I just used integer division and modular arithmetic for checking the equality of two times on the clock.  
 
 b)
 This just reuses the function made in part a and enumerates over possible offsets for the second clock

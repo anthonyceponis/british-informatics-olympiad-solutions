@@ -8,10 +8,10 @@ a)
 Here I just used integer division and modular arithmetic for checking the equality of two times on the clock.  
 
 b)
-This just reuses the function made in part a and enumerates over possible offsets for the second clock
+This just reuses the function made in part a and enumerates over possible offsets for the second clock.
 
 c)
-I just iterated through all the possible minutes fast (mod 60) and found the maximum hours passed (actual hours rather than the hours shown on the clocks)
+I just iterated through all the possible minutes fast (mod 60) and found the maximum hours passed (actual hours rather than the hours shown on the clocks).
 
 """
 

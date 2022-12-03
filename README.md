@@ -5,7 +5,7 @@ For some questions there may be a test.txt file which I made to quickly compare 
 There may also be template files which I use to quickly setup boilerplate code and some VSCode config files.
 I may sometimes add reusable algorithms to the algorithms.py file at the root of the project, but this is by no means a complete library.
 
-I have also added explanations of how my solutions work at the top of each file, including later parts of questions like parts b,c,d,... etc.
+I have also added explanations of how my solutions work at the top of each file, including later parts of questions like parts b,c,d,... etc. However, sometimes I will not write out explanations if the markscheme for that year (from the official website) already has a good explanation. 
 
 ## Solutions Tracker ##
 | Year          | Q1                 | Q2                 | Q3                 |
@@ -18,7 +18,7 @@ I have also added explanations of how my solutions work at the top of each file,
 | 2014          | :white_check_mark: |                    |                    | 
 | 2013          | :white_check_mark: |                    |                    | 
 | 2012          | :white_check_mark: |                    |                    | 
-| 2011          | :white_check_mark: |                    |                    | 
+| 2011          | :white_check_mark: | :white_check_mark: |                    | 
 | 2010          | :white_check_mark: | :white_check_mark: |                    |
 | 2009          | :white_check_mark: | :white_check_mark: |                    |
 | 2008          | :white_check_mark: | :white_check_mark: |                    |

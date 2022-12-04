@@ -5,7 +5,7 @@ For some questions there may be a test.txt file which I made to quickly compare 
 There may also be template files which I use to quickly setup boilerplate code and some VSCode config files.
 I may sometimes add reusable algorithms to the algorithms.py file at the root of the project, but this is by no means a complete library.
 
-I have also added explanations of how my solutions work at the top of each file, including later parts of questions (like parts b,c,d etc) which seem to be rare/ignored in other repos even though they tend to be the most difficult/interest parts. However, sometimes I will not write out explanations if the markscheme for that year (from the official website) already has a good explanation. 
+I have also added explanations of how my solutions work at the top of each file, including later parts of questions (like parts b,c,d etc) which seem to be rare/ignored in other repos even though they tend to be the most difficult/interesting parts. However, sometimes I will not write out explanations if the markscheme for that year (from the official website) already has a good explanation. 
 
 All of my solutions to the coding questions (part a of all questions) are complete and get full marks. They are usually annotated with comments that explain what I am doing. 
 

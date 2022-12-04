@@ -187,6 +187,13 @@ def part_c():
                                     if a + b + c + d + e + f == target:
                                         ways += 1
         print(ways)
+
+def part_d():
+    """
+    
+    Check official solution.
+    
+    """
     
 def main():
     startTime = time.time()
@@ -194,6 +201,7 @@ def main():
     # part_a()
     # part_b()
     # part_c()
+    # part_d()
 
     print(f'Execution time (seconds): {round(time.time() - startTime, 5)}')
     pass

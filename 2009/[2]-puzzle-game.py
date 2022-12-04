@@ -125,7 +125,13 @@ def part_c():
     So I went in between and found 4 blocks of size 3 and a final block of size 4 which yielded 3^4 * 4 = 324 which is the maximum.
     
     """
-
+    
+def part_d():
+    """
+    
+    Check official solution.
+    
+    """
 
 def main():
     startTime = time.time()
@@ -133,6 +139,7 @@ def main():
     # part_a()
     # part_b()
     # part_c()
+    # part_d()
 
     print(f'Execution time (seconds): {round(time.time() - startTime, 5)}')
     pass

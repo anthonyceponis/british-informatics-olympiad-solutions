@@ -1,7 +1,7 @@
 # British Informatics Olympiad Solutions
-Just thought I would share some of my solutions just in case someone found them useful. I mainly use Python3 in my solutions but I may use C++ if I find it advantageous.
+Just thought I would share some of my solutions just in case someone found them useful. I mainly use Python3 in my solutions but I may use C++ if I find it advantageous. You should first attempt the questions yourself for at least 5 hours each. If you still can't do it then look at my solutions. If I do not include an explanation for a question (which is very rarely), it means that the official mark scheme already has a good enough explanation that I cannot improve. 
 
-For some questions there may be a test.txt file which I made to quickly compare my solutions against the mark scheme via automated testing. 
+For some questions there may be a test.txt file which I made to quickly compare my solutions against the mark scheme via automated black box testing. 
 There may also be template files which I use to quickly setup boilerplate code and some VSCode config files.
 I may sometimes add reusable algorithms to the algorithms.py file at the root of the project, but this is by no means a complete library.
 

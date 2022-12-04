@@ -27,7 +27,7 @@ If you have a question or notice a mistake/bug in my code/explanations, please r
 | 2015          | :white_check_mark: |                    |                    | 
 | 2014          | :white_check_mark: |                    |                    | 
 | 2013          | :white_check_mark: |                    |                    | 
-| 2012          | :white_check_mark: |                    |                    | 
+| 2012          | :white_check_mark: | :white_check_mark: |                    | 
 | 2011          | :white_check_mark: | :white_check_mark: |                    | 
 | 2010          | :white_check_mark: | :white_check_mark: |                    |
 | 2009          | :white_check_mark: | :white_check_mark: |                    |

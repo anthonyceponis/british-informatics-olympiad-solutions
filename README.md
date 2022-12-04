@@ -14,6 +14,9 @@ I also try to use descriptive variable names and sometimes write more code than 
 ### Contributing ### 
 If you have solutions to questions I have not added yet (I won't bother updating existing ones however) then feel free to make a pull request and I will merge. Please note that solutions must be (at least) to the same standard as existing ones in the same format (ideally using my template files which are available in every folder). Solutions with waffle variable names or without explanations/annotations (in the form of comments) will also be rejected.
 
+### Questions/Bugs/Mistakes ###
+If you have a question or notice a mistake/bug in my code/explanations, please raise an issue in the issues panel and I might help you.
+
 ## Solutions Tracker ##
 | Year          | Q1                 | Q2                 | Q3                 |
 | ------------- | :----------------: | :----------------: | :----------------: |

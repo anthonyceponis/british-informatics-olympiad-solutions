@@ -254,8 +254,8 @@ def part_b():
 def part_c():
     """
     
-    So I feel like the wording of this question is not specific enough (might just be me though) because I thought the question wants us to determine the exact position but after reading the mark scheme, it only wants the 'level' that it is on.
-    Since this question is a bit weird, I will explain their answer as well just in case.
+    So I feel like the wording of this question is not specific enough (might just be me though) because I thought the question wants us to determine the exact position (which is actually not possible since the type of each point is not fixed) but after reading the mark scheme, it only wants the 'level' that it is on.
+    Since this question is a bit weird, I will explain the answer on the official mark scheme as well just in case.
     So they grouped the nodes into levels: A,B,C,D get grouped into 1 level called A-D; E,F,G,H,I,J,K,L get grouped into another level called E-L; the other levels are M-T and U-X bt the same logic.
     Then it is fairly easy to see that if the train has just entered level U-X from level M-T, then it will remain on U-X, then go to M-T, then to E-L etc.
     There is a good diagram on the official mark scheme which you should check out.
@@ -268,16 +268,17 @@ def part_c():
 def part_d():
     """
     
-    Not sure. If you have a explanation then please raise an issue on the repo and I will add a credited solution.
+    Not sure. If you have an explanation then please raise an issue in the repo and I will add a credited solution.
     
     """
     
-
-
 def main():
     startTime = time.time()
     
-    part_a()
+    # part_a()
+    # part_b()
+    # part_c()
+    # part_d()
 
     print(f'Execution time (seconds): {round(time.time() - startTime, 5)}')
     pass

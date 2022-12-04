@@ -9,6 +9,8 @@ I have also added explanations of how my solutions work at the top of each file,
 
 All of my solutions to the coding questions (part a of all questions) are complete and get full marks. They are usually annotated with comments that explain what I am doing. 
 
+I also try to use descriptive variable names and sometimes write more code than is needed (e.g. explicit if statements) just to make my code extra clear, although I would avoid this in the actual competition in the interest of time.
+
 ## Solutions Tracker ##
 | Year          | Q1                 | Q2                 | Q3                 |
 | ------------- | :----------------: | :----------------: | :----------------: |

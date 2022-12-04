@@ -7,6 +7,8 @@ I may sometimes add reusable algorithms to the algorithms.py file at the root of
 
 I have also added explanations of how my solutions work at the top of each file, including later parts of questions like parts b,c,d,... etc. However, sometimes I will not write out explanations if the markscheme for that year (from the official website) already has a good explanation. 
 
+All of my solutions to the coding questions (part a of all questions) are complete and get full marks. They are usually annotated with comments that explain what I am doing. 
+
 ## Solutions Tracker ##
 | Year          | Q1                 | Q2                 | Q3                 |
 | ------------- | :----------------: | :----------------: | :----------------: |

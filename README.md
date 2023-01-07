@@ -1,21 +1,5 @@
 # British Informatics Olympiad Solutions
-Just thought I would share some of my solutions just in case someone found them useful. I mainly use Python3 in my solutions but I may use C++ if I find it advantageous. You should first attempt the questions yourself for at least 3 hours each. If you still can't do it then look at my solutions.
-
-For some questions there may be a test.txt file which I made to quickly compare my solutions against the mark scheme via automated black box testing. 
-There may also be template files which I use to quickly setup boilerplate code and some VSCode config files.
-I may sometimes add reusable algorithms to the algorithms.py file at the root of the project, but this is by no means a complete library.
-
-I have also added explanations of how my solutions work at the top of each file, including later parts of questions (like parts b,c,d etc) which seem to be rare/ignored in other repos even though they tend to be the most difficult/interesting parts. However, sometimes I will not write out explanations if the markscheme for that year (from the official website) already has a good explanation (and I will make a note of this in the solution file if I feel that is the case so it is clear I have not ignored the question).
-
-All of my solutions to the coding questions (part 'a' of all questions) are complete and get full marks in the time constraints (NB: The execution time printed to the console in my programs is purely part of my template file and is used for debugging so it may not be accurate since it will often be offset by things like terminal inputs. However, I have tested all input cases on the mark scheme by hard coding inputs on my local machine to measure the exection time accurately).
-
-I also try to use descriptive variable names, annotate with comments and sometimes write more code than is needed (e.g. explicit if statements) just to make my code extra clear, although I would avoid this in the actual competition in the interest of time.
-
-### Contributing ### 
-If you have solutions to questions I have not added yet (I won't bother updating existing ones however) then feel free to make a pull request and I will merge. Please note that solutions must be (at least) to the same standard as existing ones in the same format (ideally using my template files which are available in every folder). Solutions with waffle variable names or without explanations/annotations (in the form of comments) will also be rejected.
-
-### Questions/Bugs/Mistakes ###
-If you have a question or notice a mistake/bug in my code/explanations, please raise an issue in the issues panel and I might help you.
+Just thought I would share some of my unofficial solutions (python3) just in case someone found them useful. I will occasionally skip later parts of questions if the official mark scheme already has a good explanation and I will mention this if that is the case. I try to explain my code/soltuions as much as possible in the 'notes' section and annotate the code with comments. Please ignore the printed execution time because I have included that in my template file for debugging. For some questions, where I have included a test.txt file, I have implemented automated testing for convinience. Finally, there may be some unfinished solutions on this repo so I have included a tracker below that states which solutions are finished and working.
 
 ## Solutions Tracker ##
 | Year          | Q1                 | Q2                 | Q3                 |
